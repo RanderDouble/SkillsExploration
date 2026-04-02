@@ -7,8 +7,8 @@ title: "Lec 0 课程前瞻与环境准备"
 <hr>
 
 <div class="avatar-container">
-<a href="https://github.com/inuEbisu"><img class="avatar-img" src="avatar_512.png" alt="avatar"></a>
-<span class="avatar-name">@inuEbisu / 犬戎</span>
+<a href="https://github.com/RanderDouble"><img class="avatar-img" src="avatar_512.png" alt="avatar"></a>
+<span class="avatar-name">@Rander</span>
 </div>
 
 ---
@@ -18,6 +18,8 @@ title: "Lec 0 课程前瞻与环境准备"
 -v-
 
 ### 这门课想补上的是什么
+
+> 工欲善其事，必先利其器。
 
 - 你会写一点代码，不等于你已经会高效地学习、排错、协作、表达
 - 很多真正反复影响体验的内容，学校课程往往默认你会，但不会系统讲
@@ -33,13 +35,15 @@ title: "Lec 0 课程前瞻与环境准备"
 
 ### 为什么学校正常课程之外还需要它
 
-> Classes teach you all about advanced topics within CS, from operating systems to machine learning, but there’s one critical subject that’s rarely covered, and is instead left to students to figure out on their own: proficiency with their tools.
+> Classes teach you all about advanced topics within CS, from operating systems to machine learning, but there's one critical subject that's rarely covered, and is instead left to students to figure out on their own: proficiency with their tools.
+>
+> Students spend hundreds of hours using these tools over the course of their education (and thousands over their career), so it makes sense to make the experience as fluid and frictionless as possible.
 >
 > <div style="text-align: right;">—— <a href="https://missing-semester-cn.github.io/">MIT《计算机教育中缺失的一课》</a></div>
 
 - 之后几年里，你会花大量时间和工具、环境、文档、版本控制打交道
 - 这些能力平时不显山露水，但会持续决定你的效率和心态
-- 很多看似“我太菜了”的痛苦，实际上是工作流没有建立起来
+- 很多看似”我太菜了”的痛苦，实际上是工作流没有建立起来
 
 -v-
 
@@ -54,9 +58,13 @@ title: "Lec 0 课程前瞻与环境准备"
     - 更专业的工作方式
 - 所以今年的版本也不是推倒重来，而是在 AI 时代重新组织这条主线
 
+这门课的前身由 TonyCrane 学长开设，之后由 45gfg9、Xecades 等学长接力，已经帮助了无数同学。课程仓库在 GitHub 上获得了 400+ stars，是计院的精品辅学课程。
+
 -v-
 
-### 什么叫“更像一个 CS 人”
+### 什么叫”更像一个 CS 人”
+
+> You choose the right tool to do the right thing.
 
 - 不是会背很多术语
 - 不是桌面很黑、终端很多窗口就算专业
@@ -65,6 +73,8 @@ title: "Lec 0 课程前瞻与环境准备"
     - 知道去哪里找更可靠的信息
     - 能把自己的环境、代码、文档、过程整理清楚
     - 愿意持续打磨自己的工作流
+
+推荐阅读：[「如何让自己看上去、闻上去都像一个 CS 人」](https://blog.hobbitqia.cc/p/5948019b.html)
 
 -v-
 
@@ -89,21 +99,29 @@ title: "Lec 0 课程前瞻与环境准备"
 
 ### 时代确实变了
 
-- 以前大家常说：
-    - STFW
-    - RTFM
-    - RTFSC
-- 而今天，很多人的第一反应已经变成了：
-    - ATFAI
-- 这不是坏事
-- 真正的问题是：
-    - 你会不会用 AI 学习和工作
-    - 你能不能判断它什么时候在胡说
-    - 你能不能验证它给出的结果
+传统的解决问题三部曲：
+
+- **STFW** (**S**earch **T**he **F**ucking **W**eb)
+- **RTFM** (**R**ead **T**he **F**ucking **M**anual)
+- **RTFSC** (**R**ead **T**he **F**ucking **S**ource **C**ode)
+
+但现在我们的第一件事已经变成了：
+
+- **ATFAI** (**A**sk **T**he **F**ucking **A**rtificial **I**ntelligence)
+
+这不是坏事。真正的问题是：
+
+- 你会不会用 AI 学习和工作
+- 你能不能判断它什么时候在胡说
+- 你能不能验证它给出的结果
 
 -v-
 
 ### 有 AI 了，为什么还要学这些
+
+> “你们 missed 可能要比 MIT 的那个还要再多一点。”
+>
+> <div style="text-align: right;">—— 蒋炎岩</div>
 
 - AI 不替你理解上下文
 - AI 不替你管理环境
@@ -119,8 +137,11 @@ title: "Lec 0 课程前瞻与环境准备"
 
 ### AI 时代更需要“机器永远是对的”
 
-- 程序不会“闹情绪”
-- 它只是按机制运行
+> 机器永远是对的。
+>
+> 世界上没有魔法。
+
+- 程序不会“闹情绪”，它只是按机制运行
 - 所谓玄学 bug，通常只是：
     - 输入不对
     - 环境不对
@@ -130,6 +151,7 @@ title: "Lec 0 课程前瞻与环境准备"
     - 假设不对
 - 所以后面这门课会不断训练一件事：
     - 相信证据，尊重机制，减少拍脑袋
+    - 工程世界里，“相信机制、尊重证据”比“感觉应该可以”重要得多
 
 -v-
 
@@ -145,6 +167,8 @@ title: "Lec 0 课程前瞻与环境准备"
     - 当前状态 / 历史版本 / diff
 - 很多问题本质上不是“不会某条命令”
 - 而是抽象层次搞混了
+
+这也是为什么这门课不只是“学工具”，而是要帮你建立对计算机系统的正确理解。
 
 -v-
 
@@ -276,16 +300,25 @@ title: "Lec 0 课程前瞻与环境准备"
 
 ### 参考资料入口
 
-- 历代技能拾遗课程仓库：<https://github.com/TonyCrane/PracticalSkillsTutorial>
+> 如果我讲到的喂不饱你，你应当去看它们。
+
+**历代技能拾遗与核心参考：**
+
+- 历代技能拾遗课程仓库：<https://github.com/TonyCrane/PracticalSkillsTutorial>（400+ stars）
 - MIT Missing Semester（中文）：<https://missing-semester-cn.github.io/>
 - 「如何让自己看上去、闻上去都像一个 CS 人」：<https://blog.hobbitqia.cc/p/5948019b.html>
 - CS 自学指南：<https://csdiy.wiki/>
-- JYY OS 课程参考：<https://jyywiki.cn/OS/References_new.md>
+
+**系统与工程思维：**
+
+- JYY OS 课程参考资料：<https://jyywiki.cn/OS/References_new.md>
 - JYY OS 2026 第一讲：<https://jyywiki.cn/OS/2026/lect1.md>
 
-这一页最重要的不是“收藏链接”，而是：
+这一页最重要的不是”收藏链接”，而是：
 
-- 以后遇到问题时，你要逐渐知道先去哪里找可靠信息。
+- 以后遇到问题时，你要逐渐知道先去哪里找可靠信息
+- 优先去官方文档、学术资源、经过验证的教程
+- 而不是到处复制粘贴
 
 -v-
 
